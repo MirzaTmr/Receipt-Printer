@@ -1,0 +1,22 @@
+# Generate a program to output a receipt in a proper format:
+==============================
+Receipt
+------------------------------
+Apple                   12.0  
+Banana                 25.66  
+Kale                    14.0 T
+------------------------------
+Subtotal               51.66
+------------------------------
+Tax                      2.1
+Total                  53.76
+==============================
+
+# The program must ask the user to input items until they pass an empty string or " " to end the addition of items.
+# The program then asks for the prices of each item with their respective name. Eg. "Enter the price for apple: "
+# The program then asks the user to input the name of the item that is taxable and adds the 15% tax to that item.
+# The spaces are a bonus touch that adds a bit of finesse
+# The item that has the "T" next to it shows that it is a taxable item of 15%. This must be added to the "Total" and not the "Subtotal"
+# The "Subtotal" is the addition of the prices without tax and the final "Total" is the final price. 
+# The "=" count is 30.
+# The "-" count is 30.
